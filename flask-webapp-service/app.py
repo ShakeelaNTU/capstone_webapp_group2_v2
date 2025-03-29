@@ -52,7 +52,7 @@ REGISTER_FORM = """
                                 <input type="text" name="username" class="form-control" required/>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label">Password:</label>
+                                <label class="form-label">Password (max 12 characters, must include a special character: ! @ # $ % ^ & ):</label>
                                 <input type="password" name="password" class="form-control" required/>
                             </div>
                             <button type="submit" class="btn btn-primary w-100">Register</button>
